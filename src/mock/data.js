@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
-    'I describe myself as a passionate developer who loves coding and the web platform. I like to build things that helps me to learn a ton of new stuff and grow as a developer.',
+    'I describe myself as a passionate developer who loves coding and building user centric experiences on the web platform. I like to build things that helps me to learn a ton of new stuff and grow as a developer.',
   paragraphTwo:
     'I have working knowledge of Javascript, Typscript and React ecosystem. I am currently learning MERN stack',
   paragraphThree:
