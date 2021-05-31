@@ -45,7 +45,7 @@ const Footer = () => {
           >
             Copyright © Varun Khalate
           </a>
-          {new Date().getFullYear()}
+          <span> {new Date().getFullYear()} </span>
         </p>
 
         {isEnabled && <GithubButtons />}
