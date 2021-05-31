@@ -24,7 +24,8 @@ export const aboutData = {
     'I have working knowledge of Javascript, Typscript and React ecosystem. I am currently learning MERN stack',
   paragraphThree:
     'I am currently building GradgGoggles and working as a JS developer in the team.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://drive.google.com/file/d/1kSYKb13P2Zh9jgqeQmFshcKtq-TGRmaX/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
