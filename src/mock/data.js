@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     'I am currently building GradgGoggles and working as a JS developer in the team.',
   resume:
-    'https://drive.google.com/file/d/1kSYKb13P2Zh9jgqeQmFshcKtq-TGRmaX/view?usp=sharing', // if no resume, the button will not show up
+    'https://drive.google.com/file/d/15UACJ8rwv8_OEbNxS04rXA-3Cwap3atb/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
