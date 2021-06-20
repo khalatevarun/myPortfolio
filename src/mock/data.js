@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Varun Khalate | JS Developer', // e.g: 'Name | Developer'
+  title: 'Varun Khalate | Frontend Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Portfolio website', // e.g: Welcome to my website
 };
@@ -49,6 +49,16 @@ export const projectsData = [
       'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
     url: 'https://entertainment-hub.netlify.app/',
     repo: 'https://github.com/khalatevarun/entertainment-hub', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'SL.jpg',
+    title: 'Shortly',
+    info: 'A website to shorten your links',
+    info2:
+      'Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.',
+    url: 'https://shortlinkit.netlify.app/',
+    repo: 'https://github.com/khalatevarun/Shortly', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
