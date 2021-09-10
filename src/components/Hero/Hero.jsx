@@ -62,7 +62,7 @@ const Header = () => {
         }}
       />
       <Container>
-        <Fade
+       {hero && <Fade
           left={isDesktop}
           bottom={isMobile}
           duration={1000}
@@ -90,7 +90,7 @@ const Header = () => {
               </Link>
             </span>
           </p>
-        </Fade>
+        </Fade>}
       </Container>
     </section>
   );
