@@ -20,12 +20,9 @@ export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
     'I describe myself as a passionate developer who loves coding and building user centric experiences on the web platform. I like to build things that helps me to learn a ton of new stuff and grow as a developer.',
-  paragraphTwo:
-    'I have working knowledge of Javascript, Typscript and React ecosystem. I am currently learning MERN stack',
-  paragraphThree:
-    'I am currently building GradgGoggles and working as a JS developer in the team.',
-  resume:
-    'https://drive.google.com/file/d/15UACJ8rwv8_OEbNxS04rXA-3Cwap3atb/view?usp=sharing', // if no resume, the button will not show up
+  paragraphTwo: 'I have working knowledge of Javascript and React ecosystem.',
+  paragraphThree: 'I am currently building GradgGoggles and working as a JS developer in the team.',
+  resume: 'https://drive.google.com/file/d/15UACJ8rwv8_OEbNxS04rXA-3Cwap3atb/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
