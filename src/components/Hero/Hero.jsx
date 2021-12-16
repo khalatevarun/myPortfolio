@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title,  subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -70,10 +70,10 @@ const Header = () => {
           distance="30px"
         >
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name}</span>
+            Hi, my name is
+            <span className="text-color-main"> Varun Khalate</span>
             <br />
-            {subtitle}
+            I am a Frontend Engineer
           </h1>
         </Fade>
         <Fade
@@ -86,7 +86,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                Know more
               </Link>
             </span>
           </p>
