@@ -37,7 +37,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">
+        {/* <p className="footer__text">
           <a
             href="https://github.com/cobidev"
             target="_blank"
@@ -46,7 +46,7 @@ const Footer = () => {
             Copyright © Varun Khalate
           </a>
           <span> {new Date().getFullYear()} </span>
-        </p>
+        </p> */}
 
         {isEnabled && <GithubButtons />}
       </Container>
