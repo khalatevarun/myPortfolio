@@ -22,7 +22,7 @@ return (
       <div className="project-wrapper">
         <Title title="Blogs" />
         <p style={{marginBottom:'60px'}}>I document and share what I am learning through blogs. Since writing brings clarity it also helps me be more confident about my skills. When I work on some content, the meticulous research helps rough out the edges and fill the gaps in my mind about the topic I am learning.</p>
-<div style={{display:'flex', justifyContent:'space-evenly'}}>
+<div style={{display:'flex', justifyContent:'space-evenly',flexWrap:'wrap'}}>
   {blogs.map((blog)=>(<div className="homeBlogBox">
     <Link to={blog.url}>
       <div className="homeBlogImage">

@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Projects from '../components/Projects/Projects';
 import { PortfolioProvider } from '../context/context';
 import { projectsData } from '../mock/data';
+import '../style/main.scss';
 
 export default () => {
   const [projects, setProjects] = useState([]);
