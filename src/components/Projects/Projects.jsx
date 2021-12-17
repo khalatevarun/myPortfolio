@@ -2,12 +2,16 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'gatsby';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
+
+// eslint-disable-next-line react/prop-types
+const Projects = ({page}) => {
   const { projects } = useContext(PortfolioContext);
+
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,9 +29,9 @@ const Projects = () => {
   return (
     <section id="projects">
       <Container>
-        <div className="project-wrapper">
+        <div className="project-wrapper" style={{marginTop:page?'30px':null}}>
           <Title title="Projects" />
-          {projects.map((project) => {
+          {(page ? projects : projects.slice(0,3)).map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -110,6 +114,13 @@ const Projects = () => {
               </Row>
             );
           })}
+          {!page && (
+          <p className="hero-cta justify-content-center">
+            <Link className="cta-btn cta-btn--hero" to="/projects">
+              Checkout all projects!
+            </Link>
+          </p>
+)}
         </div>
       </Container>
     </section>

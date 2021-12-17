@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Varun Khalate | Frontend Developer', // e.g: 'Name | Developer'
+  title: 'Varun Khalate | Frontend Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Portfolio website', // e.g: Welcome to my website
 };
@@ -19,9 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
-    'I describe myself as a passionate developer who loves coding and building user centric experiences on the web platform. I like to build things that helps me to learn a ton of new stuff and grow as a developer.',
-  paragraphTwo: 'I have working knowledge of Javascript and React ecosystem.',
-  paragraphThree: 'I am currently building GradgGoggles and working as a JS developer in the team.',
+    'I am a passionate frontend engineer proficient in JavaScript and the React ecosystem. I enjoy developing well-designed, responsive, and functional web applications.',
+  paragraphTwo: ' ',
+  paragraphThree:
+    'Previously I worked as a SDE Intern at Radien.Design. I was also selected as a fellow as part of the Github Externship Program, where I worked with the IncubateIND team.',
   resume: 'https://drive.google.com/file/d/15UACJ8rwv8_OEbNxS04rXA-3Cwap3atb/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -39,33 +40,74 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'EH.jpg',
-    title: 'Entertainment Hub',
-    info: 'One stop destination for movies and tv series',
+    img: 'DK.jpg',
+    title: 'DanceKart',
+    info: 'An ecommerce webapp for dance enthusiasts.',
     info2:
       'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
-    url: 'https://entertainment-hub.netlify.app/',
-    repo: 'https://github.com/khalatevarun/entertainment-hub', // if no repo, the button will not show up
+    url: 'https://dancekart.varunkhalate.me/',
+    repo: 'https://github.com/khalatevarun/DanceKart', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'SL.jpg',
-    title: 'Shortly',
-    info: 'A website to shorten your links',
+    img: 'CP.jpeg',
+    title: 'CinemaPlus',
+    info: 'A library catalog webapp for movies and tv series with sharing feature.',
     info2:
-      'Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.',
-    url: 'https://shortlinkit.netlify.app/',
-    repo: 'https://github.com/khalatevarun/Shortly', // if no repo, the button will not show up
+      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    url: 'https://cinemaplus.varunkhalate.me/',
+    repo: 'https://github.com/khalatevarun/CinemaPlus', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'PC.jpeg',
+    title: 'Precis',
+    info: 'A social networking app inspired from Twitter.',
+    info2:
+      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    url: 'https://dev.d2tvr0yuswqzh.amplifyapp.com/#/',
+    repo: 'https://github.com/khalatevarun/Precis', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'x.jpeg',
+    title: 'CompileTabs',
+    info: 'A chrome extension to Save, Manage, Group and Share links at one place',
+    info2:
+      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    url: 'https://dev.d2tvr0yuswqzh.amplifyapp.com/#/',
+    repo: 'https://github.com/khalatevarun/Precis', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'TG.jpeg',
+    title: 'Typingify',
+    info: 'A webapp where you can practice and test your speed typing skills.',
+    info2:
+      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    url: 'https://typingify.varunkhalate.me/',
+    repo: 'https://github.com/khalatevarun/Typingify', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'WH.jpg',
     title: 'Word Hunt',
-    info: 'A 12 language dictionary website',
+    info: 'A 12 language dictionary webapp',
     info2:
       'Word Hunt is a fully responsive website where you can find meanings to words in 12 different languages and also know the pronounciations.',
-    url: 'https://wordshunt.netlify.app/',
+    url: 'https://wordshunt.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/WordHunt', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'SL.jpg',
+    title: 'Shortly',
+    info: 'A webapp to shorten your links',
+    info2:
+      'Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.',
+    url: 'https://shortlinkit.varunkhalate.me/',
+    repo: 'https://github.com/khalatevarun/Shortly', // if no repo, the button will not show up
   },
 ];
 
