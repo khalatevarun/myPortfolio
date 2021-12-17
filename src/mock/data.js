@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: ' ',
   paragraphThree:
     'Previously I worked as a SDE Intern at Radien.Design. I was also selected as a fellow as part of the Github Externship Program, where I worked with the IncubateIND team.',
-  resume: 'https://drive.google.com/file/d/15UACJ8rwv8_OEbNxS04rXA-3Cwap3atb/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1EMylyPI25_F3ViBL1iLqzgtBBDGgqRqQ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
