@@ -15,7 +15,7 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Page found</title>
+        <title>Varun Khalate | Frontend Engineer</title>
         <html lang={false || 'en'} />
         <meta name="description" content="Page not found" />
       </Helmet>

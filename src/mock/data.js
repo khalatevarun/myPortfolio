@@ -33,8 +33,7 @@ export const projectsData = [
     img: 'GG.jpg',
     title: 'GradGoggles',
     info: 'Virtual Yearbook & Scrapbook Platform',
-    info2:
-      'GradGoggles is an attempt to celebrate our wonderful batchmates in this new normal, giving them a platform to close out their fantastic journeys, bid adieu to their friends and have a keepsake for their time in college.',
+    info2: 'Tech Stack: ReactJS, Material UI, Python Flask, Peewee, Flask-Restful, Postgres.',
     url: 'https://gradgoggles.com/',
     repo: 'https://github.com/gradgoggles', // if no repo, the button will not show up
   },
@@ -44,7 +43,7 @@ export const projectsData = [
     title: 'DanceKart',
     info: 'An ecommerce webapp for dance enthusiasts.',
     info2:
-      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+      'Tech stack: ReactJS, Context API, Firebase Cloud FireStore, Firebase Authentication, Express JS, Material UI, Stripe API, Axios, Moment, React Router.',
     url: 'https://dancekart.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/DanceKart', // if no repo, the button will not show up
   },
@@ -54,7 +53,7 @@ export const projectsData = [
     title: 'CinemaPlus',
     info: 'A library catalog webapp for movies and tv series with sharing feature.',
     info2:
-      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+      'Tech stack: ReactJS, Redux API, REST(Movies) API, Firebase Cloud Firestore, Firebase Authentication, Material UI',
     url: 'https://cinemaplus.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/CinemaPlus', // if no repo, the button will not show up
   },
@@ -64,7 +63,8 @@ export const projectsData = [
     title: 'Precis',
     info: 'A social networking app inspired from Twitter.',
     info2:
-      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+      'Tech stack: ReactJS, Material UI, GraphQL API, AWS Cognito, Amazon DynamoDB, AWS AppSync, AWS Lambda, Amazon Elasticsearch Service',
+
     url: 'https://dev.d2tvr0yuswqzh.amplifyapp.com/#/',
     repo: 'https://github.com/khalatevarun/Precis', // if no repo, the button will not show up
   },
@@ -73,8 +73,7 @@ export const projectsData = [
     img: 'x.jpeg',
     title: 'CompileTabs',
     info: 'A chrome extension to Save, Manage, Group and Share links at one place',
-    info2:
-      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    info2: 'Tech stack: Chrome API, Javascript, HTML, CSS',
     url: 'https://dev.d2tvr0yuswqzh.amplifyapp.com/#/',
     repo: 'https://github.com/khalatevarun/Precis', // if no repo, the button will not show up
   },
@@ -84,8 +83,7 @@ export const projectsData = [
     img: 'TG.jpeg',
     title: 'Typingify',
     info: 'A webapp where you can practice and test your speed typing skills.',
-    info2:
-      'Entertainment Hub is a fully responsive website where you can find trending movies and tvseries, read the plot, know the cast crew and event watch the trailers of the same. You can also search for movies/tv series in the search page.',
+    info2: 'Tech stack: Javascript, HTML, CSS',
     url: 'https://typingify.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/Typingify', // if no repo, the button will not show up
   },
@@ -94,8 +92,7 @@ export const projectsData = [
     img: 'WH.jpg',
     title: 'Word Hunt',
     info: 'A 12 language dictionary webapp',
-    info2:
-      'Word Hunt is a fully responsive website where you can find meanings to words in 12 different languages and also know the pronounciations.',
+    info2: 'Tech stack: ReactJS, Material UI, REST API',
     url: 'https://wordshunt.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/WordHunt', // if no repo, the button will not show up
   },
@@ -104,8 +101,7 @@ export const projectsData = [
     img: 'SL.jpg',
     title: 'Shortly',
     info: 'A webapp to shorten your links',
-    info2:
-      'Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.',
+    info2: 'Tech stack: ReactJS, Styles component, REST API',
     url: 'https://shortlinkit.varunkhalate.me/',
     repo: 'https://github.com/khalatevarun/Shortly', // if no repo, the button will not show up
   },
