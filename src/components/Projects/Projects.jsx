@@ -31,6 +31,10 @@ const Projects = ({page}) => {
       <Container>
         <div className="project-wrapper" style={{marginTop:page?'30px':null}}>
           <Title title="Projects" />
+          <p style={{marginBottom:'60px'}}>
+            These are few of the projects that I have worked on. I love to explore new technologies and see how they solve common problems. I feel the best way to learn something new is to quickly develop a small project with it. Currently, I am working on levelling up my React and JS skills, and also dabbling in AWS and Azure cloud services. Expect this page to be updated with related projects soon!        
+          </p>
+
           {(page ? projects : projects.slice(0,3)).map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 

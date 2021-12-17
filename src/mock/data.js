@@ -111,6 +111,35 @@ export const projectsData = [
   },
 ];
 
+export const blogsData = [
+  {
+    title: 'Memoization in React',
+    url: 'https://varunkhalate.hashnode.dev/memoization-in-react',
+    image: '',
+    date: 'Sep 25, 2021',
+    tag: '',
+    description:
+      'In this post we will learn about memoization and how do we use React.memo(), useMemo() and useCallback() to implement the memoization technique in React.',
+  },
+  {
+    title: 'User Authentication in ReactJS using Firebase',
+    image: '',
+    url: 'https://varunkhalate.hashnode.dev/user-authentication-in-reactjs-using-firebase',
+    date: 'Sep 15, 2021',
+    tag: '',
+    description:
+      'This is an attempt to give you a step by step tutorial to handle user authentication in ReactJS using Firebase.',
+  },
+  {
+    title: 'Implicit Coercion in Javascript',
+    image: '',
+    url: 'https://varunkhalate.hashnode.dev/implicit-coercion-in-javascript',
+    date: 'Oct 16, 2021',
+    tag: '',
+    description: 'Demystifying implicit coercion in javascript with examples.',
+  },
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: '',
