@@ -117,6 +117,7 @@ export const blogsData = [
     description:
       'In this post we will learn about memoization and how do we use React.memo(), useMemo() and useCallback() to implement the memoization technique in React.',
   },
+
   {
     title: 'User Authentication in ReactJS using Firebase',
     image: '',
@@ -133,6 +134,15 @@ export const blogsData = [
     date: 'Oct 16, 2021',
     tag: '',
     description: 'Demystifying implicit coercion in javascript with examples.',
+  },
+  {
+    title: 'Making a simple network app using AWS services',
+    image: '',
+    url: 'https://varunkhalate.hashnode.dev/making-a-simple-network-app-using-aws-services',
+    date: 'Nov 15, 2021',
+    tag: '',
+    description:
+      'This post is a quick walkthrough of some quintessential services offered by AWS Amazon to build a scalable and complex application, rather than a tutorial.',
   },
 ];
 
