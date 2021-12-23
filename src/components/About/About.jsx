@@ -40,7 +40,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a passionate frontend engineer proficient in JavaScript and the React ecosystem. I enjoy developing well-designed, responsive, and functional web applications.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
