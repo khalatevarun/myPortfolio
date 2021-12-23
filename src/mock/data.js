@@ -20,8 +20,9 @@ export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
     'I am a passionate frontend engineer proficient in JavaScript and the React ecosystem. I enjoy developing well-designed, responsive, and functional web applications.',
-  paragraphTwo: ' ',
   paragraphThree:
+    'Recently, I launched a really interesting project called GradGoggles which is a virtual yearbook and scrapbook platform and it was the official yearbook of BITS Pilani Goa along with 2 other colleges for the year 2021. Currently, it has 2,000+ users, who have posted 20,000+ memories on the platform.',
+  paragraphTwo:
     'Previously I worked as a SDE Intern at Radien.Design. I was also selected as a fellow as part of the Github Externship Program, where I worked with the IncubateIND team.',
   resume: 'https://drive.google.com/file/d/1EMylyPI25_F3ViBL1iLqzgtBBDGgqRqQ/view?usp=sharing', // if no resume, the button will not show up
 };
