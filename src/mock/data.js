@@ -137,9 +137,9 @@ export const blogsData = [
     description: 'Demystifying implicit coercion in javascript with examples.',
   },
   {
-    title: 'Making a simple network app using AWS services',
+    title: 'Making a simple social network app using AWS services',
     image: '',
-    url: 'https://varunkhalate.hashnode.dev/making-a-simple-network-app-using-aws-services',
+    url: 'https://varunkhalate.hashnode.dev/making-a-social-simple-network-app-using-aws-services',
     date: 'Nov 15, 2021',
     tag: '',
     description:
