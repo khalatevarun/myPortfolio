@@ -110,6 +110,15 @@ export const projectsData = [
 
 export const blogsData = [
   {
+    title: 'useAsync: A cleaner way to fetch data from APIs',
+    url: 'https://varunkhalate.hashnode.dev/useasync-a-cleaner-way-to-fetch-data-from-apis',
+    image: '',
+    date: 'May 11, 2022',
+    tag: '',
+    description:
+      'Building a custom hook that makes fetching data from APIs cleaner',
+  },
+  {
     title: 'Memoization in React',
     url: 'https://varunkhalate.hashnode.dev/memoization-in-react',
     image: '',
