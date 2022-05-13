@@ -1,22 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import Hero from './Hero/Hero';
+import React, {
+  useEffect,
+  useState,
+} from 'react';
+
+import { PortfolioProvider } from '../context/context';
+import {
+  aboutData,
+  blogsData,
+  contactData,
+  footerData,
+  heroData,
+  projectsData,
+} from '../mock/data';
 import About from './About/About';
-import Projects from './Projects/Projects';
 import Blogs from './Blogs/Blogs';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-
-import { PortfolioProvider } from '../context/context';
-
-import {
-  heroData,
-  aboutData,
-  projectsData,
-  contactData,
-  footerData,
-  blogsData,
-} from '../mock/data';
-
+import Hero from './Hero/Hero';
+import Projects from './Projects/Projects';
 
 function App() {
   const [hero, setHero] = useState({});
@@ -39,8 +40,8 @@ function App() {
     <PortfolioProvider value={{ hero, about, projects, blogs, contact, footer }}>
       <Hero />
       <About />
-      <Projects />
       <Blogs />
+      <Projects />
       <Contact />
       <Footer />
     </PortfolioProvider>
