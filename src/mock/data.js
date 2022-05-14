@@ -138,6 +138,14 @@ export const blogsData = [
       'This is an attempt to give you a step by step tutorial to handle user authentication in ReactJS using Firebase.',
   },
   {
+    title: 'Ways to clone an object in Javascript',
+    image: '',
+    url: 'https://varunkhalate.hashnode.dev/ways-to-clone-an-object-in-javascript',
+    date: 'May 14, 2022',
+    tag: '',
+    description: 'Diving deeper into the concept of object cloning and exploring different ways and their limitations.',
+  },
+  {
     title: 'Implicit Coercion in Javascript',
     image: '',
     url: 'https://varunkhalate.hashnode.dev/implicit-coercion-in-javascript',
