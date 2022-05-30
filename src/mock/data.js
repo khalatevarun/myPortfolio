@@ -24,7 +24,7 @@ export const aboutData = {
   'Previously I worked as a SDE Intern at Radien.Design. I was also selected as a fellow as part of the Github Externship Program, where I worked with the IncubateIND team.',
   paragraphTwo: 
   'Currently I am working as an SDE intern at Groww as a frontend developer. My responsibilities includes building and maintaing the Groww website.',
-  resume: 'https://drive.google.com/file/d/1EMylyPI25_F3ViBL1iLqzgtBBDGgqRqQ/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1LY-5NhcwDEL7XIYKY3GvoND32KdxmgkH/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
